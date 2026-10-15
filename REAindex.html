@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anurudh Watches | Smartwatch Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h2 class="logo">ANURUDH<span>.</span></h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Watches</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="tag">THE NEXT GENERATION</p>
+      <h1>TIME.<br>STYLE.<br><span>FUTURE.</span></h1>
+      <p>Discover smartwatches designed for your lifestyle.</p>
+      <a href="#products" class="btn">Explore Collection →</a>
+    </div>
+
+    <div class="watch">
+      <div class="watch-face">
+        <span id="clock">10:09</span>
+        <small>SMART WATCH</small>
+      </div>
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <h2>Our Collection</h2>
+    <p>Find your perfect watch.</p>
+
+    <div class="product-grid">
+      <div class="card">
+        <div class="product-icon">⌚</div>
+        <h3>Ultra Pro</h3>
+        <p>Premium Edition</p>
+        <h3>₹4,999</h3>
+        <button onclick="buy('Ultra Pro', 4999)">Buy Now</button>
+      </div>
+
+      <div class="card">
+        <div class="product-icon">⌚</div>
+        <h3>Sport Edition</h3>
+        <p>Made for Everyday</p>
+        <h3>₹2,999</h3>
+        <button onclick="buy('Sport Edition', 2999)">Buy Now</button>
+      </div>
+
+      <div class="card">
+        <div class="product-icon">⌚</div>
+        <h3>Classic Watch</h3>
+        <p>Elegant Design</p>
+        <h3>₹1,999</h3>
+        <button onclick="buy('Classic Watch', 1999)">Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <footer id="about">
+    <h3>ANURUDH WATCHES</h3>
+    <p>Designed for your time. © 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
